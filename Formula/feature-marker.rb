@@ -7,7 +7,7 @@ class FeatureMarker < Formula
   desc "AI-powered feature development automation — skill + orchestrator"
   homepage "https://github.com/Viniciuscarvalho/Feature-marker"
   url "https://github.com/Viniciuscarvalho/Feature-marker/archive/refs/tags/v7.7.0.tar.gz"
-  sha256 "PLACEHOLDER"
+  sha256 "0dcf6428abdd2d23265a2c362aad192a2b53ece81bfd23d7779b5753d43cf8c3"
   version "7.7.0"
   license "MIT"
   head "https://github.com/Viniciuscarvalho/Feature-marker.git", branch: "main"

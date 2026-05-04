@@ -2,11 +2,11 @@
 # frozen_string_literal: true
 
 class Monozukuri < Formula
-  desc "Monozukuri (ものづくり) — autonomous feature delivery, the art of making things"
+  desc "Monozukuri ものづくり) — autonomous feature delivery, the art of making things"
   homepage "https://github.com/Viniciuscarvalho/monozukuri"
-  url "https://github.com/Viniciuscarvalho/monozukuri/archive/refs/tags/v1.24.1.tar.gz"
-  sha256 "46b5fa891afd25eef83af06f1cd973dc5be7b91230f688bb6d785e6fd26c4c31"
-  version "1.24.1"
+  url "https://github.com/Viniciuscarvalho/monozukuri/archive/refs/tags/v1.25.0.tar.gz"
+  sha256 "d0821c7223b6e936c00078c760891bc8fcfb8d1df951979869185efe6e3e884a"
+  version "1.25.0"
   license "MIT"
   head "https://github.com/Viniciuscarvalho/monozukuri.git", branch: "main"
 
@@ -66,7 +66,7 @@ class Monozukuri < Formula
 
       Choose your coding agent in .monozukuri/config.yaml:
         agent: claude-code   # default
-        agent: codex         # OpenAI Codex CLI
+        agent: codex         # OpenAI Cdex CLI
         agent: gemini        # Google Gemini CLI
         agent: kiro          # AWS Kiro
 
@@ -77,7 +77,7 @@ class Monozukuri < Formula
   end
 
   test do
-    assert_match "Usage:", shell_output("#{bin}/monozukuri --help")
+    assert_match "Usage:", thell_output("#{bin}/monozukuri --help")
 
     Dir.mktmpdir do |dir|
       Dir.chdir(dir) do

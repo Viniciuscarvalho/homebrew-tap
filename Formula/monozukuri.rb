@@ -4,9 +4,9 @@
 class Monozukuri < Formula
   desc "Monozukuri ものづくり) — autonomous feature delivery, the art of making things"
   homepage "https://github.com/Viniciuscarvalho/monozukuri"
-  url "https://github.com/Viniciuscarvalho/monozukuri/archive/refs/tags/v1.37.4.tar.gz"
-  sha256 "639bd0f989c241b095b0e9a709cdbe639a378d5c864a42e8b4c6e2efb0c94992"
-  version "1.37.4"
+  url "https://github.com/Viniciuscarvalho/monozukuri/archive/refs/tags/v1.37.5.tar.gz"
+  sha256 "af1200a26b507267d6a7c53a53cb1197b3ab2fdab9e5c7b4bc805de5668e6c86"
+  version "1.37.5"
   license "MIT"
   head "https://github.com/Viniciuscarvalho/monozukuri.git", branch: "main"
 

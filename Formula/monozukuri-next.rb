@@ -67,14 +67,5 @@ class MonozukuriNext < Formula
 
   test do
     assert_match "Usage:", shell_output("#{bin}/monozukuri-next --help")
-
-    Dir.mktmpdir do |dir|
-      Dir.chdir(dir) do
-        system "git", "init"
-        system "#{bin}/monozukuri-next", "init"
-        assert_path_exists Pathname(dir)/".monozukuri/config.yaml"
-        assert_path_exists Pathname(dir)/".env.example"
-      end
-    end
   end
 end

@@ -5,7 +5,6 @@ class Seb < Formula
   desc "Project-local engineering scaffolding for Codex and Claude"
   homepage "https://github.com/Viniciuscarvalho/seb"
   url "https://github.com/Viniciuscarvalho/seb/archive/refs/tags/v0.1.0.tar.gz"
-  version "0.1.0"
   sha256 "15409e3b48b3402bdf0899147bee382a75b254a3b359289371ce6f9a2901ac6c"
   license "MIT"
   head "https://github.com/Viniciuscarvalho/seb.git", branch: "main"

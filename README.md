@@ -10,6 +10,21 @@ brew tap viniciuscarvalho/tap
 
 ## Available Formulas
 
+### seb
+
+Software Engineer Bundle Starter Pack — a Swift CLI that bootstraps project-local `.engineering/` scaffolding and Codex/Claude adapters.
+
+```bash
+# Install
+brew install viniciuscarvalho/tap/seb
+
+# Preview scaffolding
+seb init --dry-run /path/to/project
+
+# Install scaffolding
+seb init --yes /path/to/project
+```
+
 ### feature-marker
 
 AI-powered feature development workflow automation for Claude Code.
@@ -64,6 +79,7 @@ brew install viniciuscarvalho/tap/feature-marker
 
 ## More Information
 
+- [seb Repository](https://github.com/Viniciuscarvalho/seb)
 - [feature-marker Repository](https://github.com/Viniciuscarvalho/Feature-marker)
 - [Homebrew Documentation](https://docs.brew.sh/)
 

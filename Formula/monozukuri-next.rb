@@ -4,9 +4,9 @@
 class MonozukuriNext < Formula
   desc "Monozukuri alpha channel — autonomous feature delivery orchestrator"
   homepage "https://github.com/Viniciuscarvalho/monozukuri"
-  url "https://github.com/Viniciuscarvalho/monozukuri/archive/refs/tags/v2.1.0-alpha.1.tar.gz"
-  version "2.1.0-alpha.1"
-  sha256 "9f14e6230534d1846572cd9bf37b2413f86c3fae7b588a17d7a68977ed380f72"
+  url "https://github.com/Viniciuscarvalho/monozukuri/archive/refs/tags/v2.2.3-alpha.1.tar.gz"
+  version "2.2.3-alpha.1"
+  sha256 "5bacf8c81ce9e8f464a9de384036c16a64f434a08d396166433207a40f30f6cb"
   license "MIT"
   head "https://github.com/Viniciuscarvalho/monozukuri.git", branch: "main"
 
